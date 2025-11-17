@@ -43,6 +43,7 @@ Berikut adalah sampel alokasi IP dari subnet terbesar hingga terkecil yang telah
 | A5 (Khazad)   | 252 Host |   /24   | 10.67.10.0   |  10.67.10.1 - 10.67.10.254 |
 | A21 (Arnor)   | 10 Host  |   /28   | 10.67.18.128 |  10.67.18.129 - 10.67.18.142 |
 | B1 (Link WAN) | 2 Host   |   /30   | 10.67.18.184 |  10.67.18.185 - 10.67.18.186 |
+
 Data lengkap tersedia pada file Spreadsheet terlampir.
 
 ## III. Perhitungan CIDR (Classless Inter-Domain Routing)
