@@ -52,8 +52,11 @@ Untuk menyederhanakan tabel routing pada router utama, kami melakukan penggabung
 
 ### 1. Hierarki Penggabungan
 - Level 1 (Subnet A > B): Subnet-subnet kecil digabung menjadi blok yang lebih besar.
+
   Contoh: A1 (/23) + A2 (/26) digabung menjadi B1 (/22).
 - Level 2 (Subnet B > C): Blok B digabung menjadi blok C.
+
   Contoh: Blok-blok B digabung menjadi C1 (/21) dan C3 (/20).
 - Level 3 (Subnet C > D): Blok C digabung menjadi blok D.
+
   Contoh: D1 (/20) mencakup range 10.67.0.0 s/d 10.67.15.255.
